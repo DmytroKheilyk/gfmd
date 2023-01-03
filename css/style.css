@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-family: 'Fredoka One', 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+div.all-header {
+    width: 1200px;
+    height: 96px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.main_name {
+    padding-top: 42px;
+    padding-left: 121px;
+    font-size: 18px;
+    position: absolute;
+}
+
+.logo {
+    padding-top: 29px;
+    padding-left: 77px;
+    padding-right: 9px;
+}
+
+div.nav > ul {
+    list-style: none;
+    margin-top: 49px;
+}
+
+ul.nav-header > li {
+    text-decoration: none;
+    display: flex;
+    float: left;
+}
+
+ul.nav-header > li > a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.active::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    border-radius: 17%;
+    background: #E8532E;
+    display: inline-block;
+    position: relative;
+    top: -13px;
+}
+
+div.all_main {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div.mission {
+    text-align: center;
+    height: 1128px;
+}
+
+p.mission_start {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    width: 467px;
+    height: 78px;
+    margin: 84px auto 0px;
+}
+
+h3.mission_h3 {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color:#000000;
+    width: 518px;
+    height: 88px;
+    margin: 19px auto 0px;
+}
+
+p.mission_center_1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    width: 470px;
+    height: 58px;
+    color: #000000;
+    margin: 19px auto 0px;
+}
+
+p.mission_center_2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    width: 389px;
+    height: 156px;
+    color: #000000;
+    margin: 85px auto 0px;
+}
+
+p.mission_center_end {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    height: 222px;
+    width: 392px;
+    margin: 76px auto 0px;
+}
+
+div img.mission_image_left {
+    position: absolute;
+    left: 22px;
+    top: 314px;
+}
+
+div img.mission_image_right {
+    position: absolute;
+    right: 32px;
+    top: 475px;
+}
+
+div.ellipse {
+    position: relative;
+    z-index: -1;
+}
+
+img.ellipse_top {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+img.ellipse_bottom {
+    position: absolute;
+    top: 952px;
+    left: 0px;
+}
+
+div.our_team {
+    position: absolute;
+    width: 1200px;
+    height: 952px;
+    left: 0px;
+    top: 1128px;
+    background: #3F224F;
+}
+
+div.team_info {
+    display: flex;
+}
+
+div.team_info div.first {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 152px;
+    top: 160px;
+}
+
+div.team_info div.second {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 475px;
+    top: 160px;
+}
+
+div.team_info div.third {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 795px;
+    top: 160px;
+}
+
+div.team_info div.fourth {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 312px;
+    top: 525px;
+}
+
+div.team_info div.fifth {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 633px;
+    top: 525px;
+}
+
+div.team_info p {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #E64F2A;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+div.first p {margin-top: 0px;}
+
+div.team_info span {
+    display: block;
+    width: 250px;
+    height: 52px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 8px;
+}
+
+div.our_team h3 {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 57px;
+}
+
+div.first img {
+    border: 2px solid #9FEEFF;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+div.our_products {
+    position: absolute;
+    width: 1200px;
+    height: 1136px;
+    left: 0px;
+    top: 2176px;
+    background: #FFFFFF;
+}
+
+div.our_products h3 {
+    position: absolute;
+    width: 188px;
+    height: 29px;
+    left: 506px;
+    top: 155px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.top_shot_main {
+    position: absolute;
+    width: 651px;
+    height: 351px;
+    left: 98px;
+    top: 252px;
+}
+
+img.top_shot {
+    position: absolute;
+    width: 188px;
+    height: 165px;
+    left: 785px;
+    top: 218px;
+}
+
+.top_shot p {
+    position: absolute;
+    width: 298px;
+    height: 78px;
+    left: 803px;
+    top: 525px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.cryptokitties_main {
+    position: absolute;
+    width: 651px;
+    height: 350px;
+    left: 98px;
+    top: 720px;
+}
+
+img.cryptokitties {
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 803px;
+    top: 720px;
+}
+
+.cryptokitties p {
+    position: absolute;
+    width: 59px;
+    height: 26px;
+    left: 803px;
+    top: 1044px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+div.careers {
+    position: absolute;
+    width: 1200px;
+    height: 923px;
+    left: 0px;
+    top: 3312px;
+    background: #FFFFFF;
+}
+
+div.careers h3 {
+    position: absolute;
+    width: 109px;
+    height: 29px;
+    left: 545px;
+    top: 41px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+div.careers img {
+    position: absolute;
+    width: 1200px;
+    height: 489px;
+    left: 0px;
+    top: 137px;
+}
+
+div.careers p.main_text {
+    position: absolute;
+    width: 474px;
+    height: 47px;
+    left: 363px;
+    top: 183px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.careers button {
+    position: absolute;
+    width: 265px;
+    height: 77px;
+    left: 467px;
+    top: 273px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #B74B2F;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.careers .first_text {
+    position: absolute;
+    width: 379px;
+    height: 26px;
+    left: 113px;
+    top: 683px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.careers .second_text {
+    position: absolute;
+    width: 118px;
+    height: 26px;
+    left: 969px;
+    top: 683px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.careers .third_text {
+    position: absolute;
+    width: 365px;
+    height: 26px;
+    left: 114px;
+    top: 808px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.careers .fourth_text {
+    position: absolute;
+    width: 42px;
+    height: 26px;
+    left: 1045px;
+    top: 808px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.careers .rectangle_1 {
+    position: absolute;
+    width: 197px;
+    height: 6px;
+    left: 113px;
+    top: 737px;
+    background: #E54F29;
+    border-radius: 5px;
+}
+
+.careers .rectangle_2 {
+    position: absolute;
+    width: 197px;
+    height: 6px;
+    left: 113px;
+    top: 865px;
+    background: #E54F29;
+    border-radius: 5px;
+}
+
+div.contact_us {
+    position: absolute;
+    width: 1200px;
+    height: 201px;
+    left: 0px;
+    top: 4235px;
+    background: #FFFFFF;
+}
+
+.contact_us h3 {
+    position: absolute;
+    width: 154px;
+    height: 29px;
+    left: 523px;
+    top: 33px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.contact_us ul {
+    list-style: none;
+}
+
+.contact_us ul li {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.contact_us ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    padding-top: 9px;
+}
+
+li .twitter {
+    box-sizing: border-box;
+    position: absolute;
+    width: 165px;
+    height: 39px;
+    left: 141px;
+    top: 110px;
+    border: 4px solid #000000;
+    
+}
+
+li .facebook {
+    box-sizing: border-box;
+    position: absolute;
+    width: 165px;
+    height: 39px;
+    left: 329px;
+    top: 110px;
+    border: 4px solid #000000;
+}
+
+li a.medium {
+    box-sizing: border-box;
+    position: absolute;
+    width: 165px;
+    height: 39px;
+    left: 517px;
+    top: 110px;
+    border: 4px solid #000000;
+    padding-left: 25px;
+}
+
+
+img.medium {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 38px;
+    top: 12px;
+}
+
+li .discord {
+    box-sizing: border-box;
+    position: absolute;
+    width: 165px;
+    height: 39px;
+    left: 705px;
+    top: 110px;
+    border: 4px solid #000000;
+}
+
+li .email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 165px;
+    height: 39px;
+    left: 893px;
+    top: 110px;
+    border: 4px solid #000000;
+}
