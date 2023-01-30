@@ -1,0 +1,309 @@
+@media (max-width: 480px) {
+    body {
+        width: auto;
+    }
+
+/* Шапка сайта */
+
+    header {
+        width: auto;
+        position: relative;
+        height: 69px;
+    }
+
+    div.all-header {
+        width: auto;
+    }
+
+    .logo {
+        width: 27px;
+        height: 51px;
+        padding-left: 18px;
+        padding-top: 9px;
+        padding-right: 5px;
+    }
+
+    div.main_name {
+        padding-top: 21px;
+        padding-left: 54px;
+    }
+
+    .main_name p {
+        width: 95px;
+        height: 27px;
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+
+        color: #000000;
+    }
+
+    .active::after {display: none;}
+
+    .menu-burger__header {
+        position: absolute; 
+        width: 31px;
+        height: 35px;
+        display: block;
+        top: 14px;
+        right: 18px;
+    }
+
+    .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background: #E8532E;
+        margin: 0 auto;
+        border-radius: 3px;
+        z-index: 2;
+    }
+    .menu-burger__header span{
+        top: 21px;
+    }
+    .menu-burger__header:after, .menu-burger__header:before{
+        content: '';
+    }
+    .menu-burger__header:after{
+        bottom: 2px;
+    }
+    .menu-burger__header:before{
+        top: 12px;
+    }
+
+    .header__nav {
+        display: block;
+        position: absolute;
+        background: #FFFFFF;
+        box-shadow: #ccc;
+        width: 100%;
+        height: 325px;
+        box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+        right: -100%;
+        transition: all 0.4s ease;
+        z-index: 1;
+        opacity: 0;
+    }
+
+    .header__nav ul {
+        display: block;
+    }
+
+    .header__nav li {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .menu-burger__header.open-menu span {
+        opacity: 0; 
+        transition: 0.5s; 
+    }
+    .menu-burger__header.open-menu:before {
+        transform: rotate(38deg);
+        top: 16px;
+        transition: 0.4s;
+    }
+    .menu-burger__header.open-menu:after {
+        transform: rotate(-38deg);
+        bottom: 16px;
+        transition: 0.4s;
+    }
+
+    .header__nav.open-menu {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        height: 325px;
+        align-items: center;
+        opacity: 1;
+    }
+
+    .header__nav.open-menu li {
+        display: block;
+        float: none;
+        margin: 20px auto;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+/* Основа */
+
+    main {
+        width: auto;
+        overflow: hidden;
+    }
+
+    div.mission {
+        height: 1103px;
+    }
+
+    div.mission p.mission_start {
+        width: 179px;
+        height: 56px;
+        margin: 0 auto;
+        margin-top: 13px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    div.mission h3.mission_h3 {
+        width: 285px;
+        height: 44px;
+        margin: 0 auto;
+        margin-top: 17px;
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    div.mission p.mission_center_1 {
+        width: 177px;
+        height: 58px;
+        margin: 0 auto;
+        margin-top: 17px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    img.mission_image_left {
+        height: 303px;
+        margin-top: -150px;
+    }
+
+    div.mission p.mission_center_2 {
+        width: 179px;
+        height: 98px;
+        margin: 0 auto;
+        margin-top: 290px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    div.mission p.mission_center_end {
+        width: 179px;
+        height: 70px;
+        margin: 0 auto;
+        margin-top: 18px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    img.mission_image_right {
+        position: absolute;
+        width: 285px;
+        height: 296px;
+        margin-top: 194px;
+    }
+
+    div.mission p.mission_center_end_2 {
+        width: 181px;
+        height: 56px;
+        margin: 0 auto;
+        margin-top: 304px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    div.our_team {
+        top: 77px;
+        width: auto;
+        height: 656px;
+    }
+
+    div.ellipse {
+        width: 421px;
+        height: 101px;
+    }
+
+    img.ellipse_top {
+        position: absolute;
+        left: -401px;
+        top: -50px;
+    }
+
+    div.our_team h3 {
+        height: 17px;
+        margin: 0 auto;
+        margin-top: -140px;
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    div.team_info p {
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    div.team_info span {
+        width: 107px;
+        height: 28px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    div.team_info img {
+        width: 107px;
+        height: 107px;
+    }
+
+    div.first img {
+        border: 2px solid #9FEEFF;
+        border-radius: 50%;
+        padding: 4px;
+        margin: 5px -5px;
+    }
+
+    div.team_info div.first {
+        position: absolute;
+        width: 107px;
+        height: 107px;
+        left: 35px;
+        top: 56px;
+    }
+
+    div.team_info div.second {
+        position: absolute;
+        width: 107px;
+        height: 107px;
+        right: 35px;
+        top: 56px;
+    }
+
+}

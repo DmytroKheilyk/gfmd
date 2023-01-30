@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GFMD</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
     <script src="https://kit.fontawesome.com/ceecd9ae9d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,14 +14,19 @@
         <div class="all-header">
             <img src="/img/main-logo.png" alt="" class="logo">
             <div class="main_name"><p>Geek, freak and <br>Moby Dick</p></div>
-            <div class="nav">
-                <ul class="nav-header">
-                    <li><a href="#mission" class="active">Mission</a></li>
-                    <li><a href="#our_team">Team</a></li>
-                    <li><a href="#our_product">Products</a></li>
-                    <li><a href="#careers">Careers</a></li>
-                    <li><a href="#contact_us">Contact</a></li>
-                </ul>
+            <div class="container header__container">
+                <div class="menu-burger__header">
+                    <span></span>
+                </div>
+                <nav class="header__nav">
+                    <ul class="nav-header">
+                        <li><a href="#mission" class="active menu__item">Mission</a></li>
+                        <li><a href="#our_team" class="menu__item">Team</a></li>
+                        <li><a href="#our_product" class="menu__item">Products</a></li>
+                        <li><a href="#careers" class="menu__item">Careers</a></li>
+                        <li><a href="#contact_us" class="menu__item">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -31,7 +37,8 @@
                 <h3 class="mission_h3">The world as we know it is old and boring</h3>
                 <p class="mission_center_1">Blockchain and decentralization changes everything</p>
                 <p class="mission_center_2">We believe that technology and communities are a force that can change our lives. Games for us are a way to build life differently: the ability to create new worlds, new communities, free from centralized institutions</p>
-                <p class="mission_center_end">This is an opportunity to change this world and build other worlds - according to your rules. This is a breath of fresh air outside the power of states, outside politics<br><br>We want to create games that continue to be created and developed together with the gaming community.</p>
+                <p class="mission_center_end">This is an opportunity to change this world and build other worlds - according to your rules. This is a breath of fresh air outside the power of states, outside politics</p>
+                <p class="mission_center_end_2">We want to create games that continue to be created and developed together with the gaming community.</p>
             </div>
             <img src="/img/mission-left-logo.svg" alt="" class="mission_image_left">
             <img src="/img/mission-right-logo.svg" alt="" class="mission_image_right">
@@ -43,7 +50,7 @@
                 <h3 class="our_team_main">OUR TEAM</h3>
                 <div class="team_info">    
                     <div class="first">
-                        <img src="img/peter.svg" alt="">
+                        <img src="/img/peter.svg" alt="">
                         <p>Peter Kieltyka</p>
                         <span>Co-founder + CEO</span>
                     </div>

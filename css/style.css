@@ -7,7 +7,13 @@
     outline: none;
 }
 
+#menu__toggle {
+    opacity: 0;
+}
+
 body {
+    width: 1200px;
+    margin: auto;
     font-family: 'Fredoka One', 'DM Sans';
     font-weight: 400;
     font-size: 16px;
@@ -15,7 +21,7 @@ body {
 }
 
 div.all-header {
-    width: 1200px;
+    width: auto;
     height: 96px;
     margin: auto;
     display: flex;
@@ -35,7 +41,7 @@ div.main_name {
     padding-right: 9px;
 }
 
-div.nav > ul {
+ul {
     list-style: none;
     margin-top: 49px;
 }
@@ -65,9 +71,10 @@ ul.nav-header > li > a {
 }
 
 div.all_main {
-    width: 1200px;
+    width: auto;
     margin: 0 auto;
     position: relative;
+    display: block;
 }
 
 div.mission {
@@ -134,6 +141,18 @@ p.mission_center_end {
     margin: 76px auto 0px;
 }
 
+p.mission_center_end_2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    height: 222px;
+    width: 392px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
 div img.mission_image_left {
     position: absolute;
     left: 22px;
@@ -164,17 +183,14 @@ img.ellipse_bottom {
 }
 
 div.our_team {
-    position: absolute;
-    width: 1200px;
+    position: relative;
+    width: auto;
     height: 952px;
     left: 0px;
-    top: 1128px;
+    top: 0px;
     background: #3F224F;
 }
 
-div.team_info {
-    display: flex;
-}
 
 div.team_info div.first {
     position: absolute;
@@ -262,11 +278,11 @@ div.first img {
 }
 
 div.our_products {
-    position: absolute;
-    width: 1200px;
+    position: relative;
+    width: auto;
     height: 1136px;
     left: 0px;
-    top: 2176px;
+    top: 90px;
     background: #FFFFFF;
 }
 
@@ -344,11 +360,11 @@ img.cryptokitties {
 }
 
 div.careers {
-    position: absolute;
-    width: 1200px;
+    position: relative;
+    width: auto;
     height: 923px;
     left: 0px;
-    top: 3312px;
+    top: 200px;
     background: #FFFFFF;
 }
 
@@ -481,11 +497,11 @@ div.careers p.main_text {
 }
 
 div.contact_us {
-    position: absolute;
-    width: 1200px;
+    position: relative;
+    width: auto;
     height: 201px;
     left: 0px;
-    top: 4235px;
+    top: 200px;
     background: #FFFFFF;
 }
 
