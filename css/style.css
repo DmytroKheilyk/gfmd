@@ -329,6 +329,8 @@ img.top_shot {
     color: #000000;
 }
 
+.top_shot p.highlights {display: none;}
+
 .cryptokitties_main {
     position: absolute;
     width: 651px;
@@ -564,17 +566,8 @@ li a.medium {
     left: 517px;
     top: 110px;
     border: 4px solid #000000;
-    padding-left: 25px;
 }
 
-
-img.medium {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    left: 38px;
-    top: 12px;
-}
 
 li .discord {
     box-sizing: border-box;
