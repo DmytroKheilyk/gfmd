@@ -302,8 +302,239 @@
         position: absolute;
         width: 107px;
         height: 107px;
-        right: 35px;
-        top: 56px;
+        left: 65%;
+        top: 62px;
     }
+
+    
+    div.team_info div.third {
+        position: absolute;
+        width: 107px;
+        height: 107px;
+        left: 37%;
+        top: 251px;
+    }
+
+    div.team_info div.fourth {
+        position: absolute;
+        width: 107px;
+        height: 107px;
+        left: 37px;
+        top: 446px;
+    }
+
+    div.team_info div.fifth {
+        position: absolute;
+        width: 107px;
+        height: 107px;
+        left: 65%;
+        top: 446px;
+    }
+
+    div.our_products {
+        width: auto;
+        height: 630px;
+        left: 0px;
+        top: 175px;
+    }
+
+    div.our_products h3 {
+        height: 17px;
+        left: 35%;
+        top: 84px;
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    div.top_shot img.top_shot {
+        position: absolute;
+        width: 80px;
+        height: 70px;
+        left: 13%;
+        top: 122px;
+    }
+
+    div.top_shot p {
+        position: absolute;
+        width: 148px;
+        height: 42px;
+        left: 50%;
+        top: 136px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    div.top_shot p span {display: none;}
+
+    div.top_shot p.highlights {
+        display: block;
+        position: absolute;
+        width: 148px;
+        height: 14px;
+        left: 50%;
+        top: 356px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 14px;
+        color: #000000;
+    }
+
+    div.top_shot img.top_shot_main {
+        position: absolute;
+        width: 95%;
+        height: 148px;
+        left: 2.5%;
+        top: 195px;
+    }
+
+    div.cryptokitties img.cryptokitties {
+        position: absolute;
+        width: 117px;
+        height: 25px;
+        left: 13%;
+        top: 405px;
+    }
+
+    div.cryptokitties p {
+        position: absolute;
+        width: 33px;
+        height: 14px;
+        left: 50%;
+        top: 411px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    div.cryptokitties img.cryptokitties_main {
+        position: absolute;
+        width: 95%;
+        height: 154px;
+        left: 2.5%;
+        top: 450px;
+    }
+
+    div.careers {
+        width: auto;
+        height: 254px;
+        left: 0px;
+    }
+
+    div.careers img {display: none;}
+    div.careers .main_text {display: none;}
+    div.careers button {display: none;}
+
+    div.careers h3 {
+        position: absolute;
+        width: 64px;
+        height: 17px;
+        left: 41%;
+        top: 23px;
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    div.careers .first_text {
+        position: absolute;
+        width: 135px;
+        height: 28px;
+        left: 13%;
+        top: 78px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    div.careers .second_text {
+        position: absolute;
+        width: 65px;
+        height: 14px;
+        left: 68%;
+        top: 78px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    div.careers div.rectangle_1 {
+        position: absolute;
+        width: 78%;
+        height: 6px;
+        left: 12%;
+        top: 128px;
+    }
+
+    div.careers .third_text {
+        position: absolute;
+        width: 150px;
+        height: 28px;
+        left: 13%;
+        top: 184px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    div.careers .fourth_text {
+        position: absolute;
+        width: 23px;
+        height: 14px;
+        left: 80%;
+        top: 181px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    div.careers div.rectangle_2 {
+        position: absolute;
+        width: 78%;
+        height: 6px;
+        left: 12%;
+        top: 239px;
+    }
+
+    div.contact_us {
+        width: auto;
+        height: 135px;
+        left: 0px;
+        margin-top: 100px;
+    }
+
+    div.contact_us h3 {
+        position: absolute;
+        width: 90px;
+        height: 17px;
+        left: 37%;
+        top: 36px;
+        font-family: 'Fredoka One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
 
 }
